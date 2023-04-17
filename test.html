@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DianaWrities</title>
+
+    <style>
+        /* Reset CSS */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Header */
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        nav li {
+            list-style: none;
+            margin-left: 20px;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        
+        nav a:hover {
+            color: #ffcc00;
+        }
+        
+        .search-bar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        .search-bar input[type="text"] {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        
+        .search-bar button {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .search-bar button:hover {
+            background-color: #f5b800;
+        }
+        /* Main Content */
+        
+        main {
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        /* Footer */
+        
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #333;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        
+        .left {
+            position: relative;
+            width: 400px;
+        }
+        
+        .right {
+            position: relative;
+            float: right;
+        }
+        
+        main {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">DianaWrities</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports/sports.html">Sports</a></li>
+                <li><a href="politics/politics.html">Politics</a></li>
+                <li><a href="./technology/technology.html">Technology</a></li>
+                <li><a href="health/health.html">Health</a></li>
+                <li><a href="cars/cars.html">Cars</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Go</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="left">
+            <h1>Welcome to DianaWrities!</h1>
+            <p>Get the latest news and information on sports, politics, technology, health, and cars from our team of expert writers and analysts.</p>
+        </div>
+        <div class="right">
+            <aside>
+                <h2>Recent Posts</h2>
+                <iframe src="health/health.html" height="400px" width="100%"></iframe>
+            </aside>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+        </div>
+        <div class="contact-info">
+            <p>123 Main St.</p>
+            <p>Anytown, USA 12345</p>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: info@dianawrities.com</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 DianaWrities. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
