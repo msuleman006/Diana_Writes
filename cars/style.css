@@ -1,7 +1,7 @@
 /* Navigation bar */
 
 nav {
-    background-color: #333;
+    background-color: #f80000;
     overflow: hidden;
 }
 
@@ -24,7 +24,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #4CAF50;
+    background-color: #f0940a;
 }
 
 
